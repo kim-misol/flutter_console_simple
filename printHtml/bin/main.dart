@@ -12,5 +12,6 @@ Future<String> download(final url) async {
 }
 
 void main() async {
-  print(await download('http://www.example.com'));
+  // print(await download('http://www.example.com'));
+  print(await download('https://creator.class101.net/creator/posts/klass?productId=5e2556a44ba7b950bbd46bb5'));
 }
